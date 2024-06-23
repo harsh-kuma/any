@@ -1,0 +1,252 @@
+*{
+    background-color: rgb(12, 12, 12);
+}
+.first{
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+      
+}
+.logo{
+    height: 60px;
+    display: flex;  
+    color: aliceblue; 
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.button{
+    width: 50%;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+
+.a{
+    border: 2px solid rgb(126, 128, 127);
+    color: white;
+    font-size: 1rem;
+    border-radius:2rem;
+}
+
+.a:hover{
+    background-color: rgb(136, 245, 136);
+    color: black;
+    font-weight: 2rem;
+}
+
+.second{
+    height:700px;
+    border-radius:1rem;
+    margin:150px 20px 0 20px;
+    display: block;
+    padding: 3px;
+    background-color: rgb(136, 245, 136);
+    box-shadow: 3px 3px rgb(193, 244, 193);
+   
+}
+
+.forimg{
+    margin-top: 5px;
+    height: 150px;
+    display: flex;
+    background-color:rgb(136, 245, 136);
+    padding-left:20px;   
+}
+.imge{
+    width: 200px;
+    height: 200px;
+    background-image: url("harsh.jpeg");
+    background-size: cover;
+    align-items: center;
+    margin-top: -75px;
+    border: 4px solid rgb(136, 245, 136);
+    border-radius: 100%;
+    display: block;
+    
+    
+}
+.forming2{
+    display: flex;
+    background-color: rgb(136, 245, 136);
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    height:10rem;
+    width: 15%;
+    margin-left: 20px;
+    background-color: rgb(136, 245, 136);
+    display: block;
+    font-size: 1.3rem;
+    color:  black;
+    font-weight: 600;
+}
+
+.left p{
+    background-color:rgb(136, 245, 136);
+    margin-left: 5px;
+}
+
+.right{
+        margin-top: -40px;
+        height:10rem;
+        width: 80%;
+        margin-right: 10px; 
+        background-color:rgb(136, 245, 136);
+        
+}
+
+.hedding h1{
+    height:20%;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 2.5rem;
+    background-color:rgb(136, 245, 136);
+}
+
+.para p{
+    font-size: 1.2rem;
+    height:50%;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    background-color:rgb(136, 245, 136);
+}
+span{
+    background-color:rgb(136, 245, 136);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+     *{
+      background-color: rgb(44, 45, 46);
+    }
+    .first{
+        height: 100px;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: fixed;
+        top: 0%;
+          
+    }
+    .logo{
+        height: 60px;
+        display: flex;  
+        color: aliceblue; 
+        font-size: 1.3rem;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    
+    .button{
+        width: 95%;
+        display: flex;
+        color: aliceblue;
+        justify-content: space-between;
+        
+    }
+    .second{
+        height:1000px;
+        border-radius:1rem;
+        margin:200px 10px 0 10px;
+        display: block;
+        padding: 3px;
+        background-color: rgb(136, 245, 136);
+        box-shadow: 2px 2px rgb(193, 244, 193);
+       
+    }
+    
+    .forimg{
+        justify-content: center;
+        margin-top: 5px;
+        height: 150px;
+        display: flex;
+        background-color:rgb(136, 245, 136);
+          
+    }
+    .imge{
+        width: 150px;
+        height: 150px;
+        background-image: url("harsh.jpeg");
+        background-size: cover;
+        align-items: center;
+        margin-top: -75px;
+        border: 4px solid rgb(136, 245, 136);
+        border-radius: 100%;
+        display: block;
+        
+        
+    }
+    .forming2{
+        display: block;
+        background-color: rgb(136, 245, 136);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left{
+        
+        height:10rem;
+        width: 80%;
+        margin-left: 30px;
+        background-color: rgb(136, 245, 136);
+        display: block;
+        font-size: 1.4rem;
+        color:  black;
+        font-weight: 600;
+    }
+    
+    .left p{
+        background-color:rgb(136, 245, 136);
+        margin-top: -20px;
+
+    }
+
+    
+    .right{
+            justify-content: center;
+            height:10rem;
+            width: 100%;
+            margin-top: -70px;
+            background-color:rgb(136, 245, 136);
+            
+    }
+    
+    .hedding h1{
+        height:20%;
+        text-decoration: underline;
+        color: rgb(53, 52, 52);
+        text-align: center;
+        font-size: 2.5rem;
+        background-color:rgb(136, 245, 136);
+    }
+    
+    
+    .para p{
+        margin-top: -20px;
+        font-size: 1.3rem;
+        padding: 12px;
+        height:70%;
+        color: rgb(7, 7, 7);
+        text-align: justify;
+        background-color:rgb(136, 245, 136);
+    }
+
+    span{
+        background-color:rgb(136, 245, 136);
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    
+  }
+
